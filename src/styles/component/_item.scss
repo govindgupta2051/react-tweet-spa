@@ -1,0 +1,33 @@
+.item{
+  border: 1px solid darken($off-white, 7%);;
+  padding: $s-size $m-size;
+  &:hover{
+    background: $off-white;
+  }
+}
+
+.item-header{
+  color:$grey;
+  display:flex;
+  justify-content: space-between;
+}
+.item-content{
+  border-top: none;
+  color: $dark-grey;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  transition: background .3s ease;
+
+  @media (min-width: $desktop-breakpoint) {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.item-content-img{
+  width: 100%;
+}
+.item-icon {
+  padding-left: 1rem;
+}

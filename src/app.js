@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Greeting from './component/Gretting';
+import TwitterHomePage from './component/TwitterHomePage';
 
 import './styles/styles.scss';
 
 
-ReactDOM.render(<Greeting />, document.getElementById('app'));
+ReactDOM.render(<TwitterHomePage />, document.getElementById('app'));
